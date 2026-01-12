@@ -1,4 +1,9 @@
 css
+.fade-in {opacity:0;
+transition: opacity 1.5 s ease-in-out;
+}
+.fade-in.visible{opacity: 1 ;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
@@ -58,4 +63,19 @@ css
   background-color: #e6f2ff; /* azul clarinho, bem suave */
   padding: 20px;
   border-radius: 10px;
+}
+
+/*Cores específicas para cada seção*/
+#sobre{
+  background-color: #F0F2F5;
+
+}
+
+#projetos{
+  background-color:#e6f2ff;
+
+}
+
+#contacto{
+  background-color: #929FA7;
 }
